@@ -35,7 +35,7 @@ const run = async () => {
             throw new Error(`'${q}' did not return a result`);
         }
     }
-
+    return;
     // Should be equivalent to L26
     await testEval('allow(new JWT("userId", { groups: [] }), "read", new AResource("userId"))');
     // Should be equivalent to L28

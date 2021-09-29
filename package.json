@@ -2,9 +2,9 @@
   "name": "oso-js-dicts",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "start": "POLAR_LOG=1 node index.js"
+    "start": "POLAR_LOG=1 node usecase.js",
+    "minimalist": "POLAR_LOG=1 node minimalist.js"
   },
   "author": "Raimo Radczewski <raimo@craftswerk.io>",
   "license": "ISC",
