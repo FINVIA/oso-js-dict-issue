@@ -19,7 +19,7 @@ const run = async () => {
     const oso = new Oso();
     oso.registerClass(JWT);
     oso.registerClass(AResource);
-    await oso.loadFiles(["main.polar"]);
+    await oso.loadFiles(["usecase.polar"]);
 
 
     // Works
