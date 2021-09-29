@@ -1,0 +1,14 @@
+{
+  "name": "oso-js-dicts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "POLAR_LOG=1 node index.js"
+  },
+  "author": "Raimo Radczewski <raimo@craftswerk.io>",
+  "license": "ISC",
+  "dependencies": {
+    "oso": "^0.21.0"
+  }
+}
